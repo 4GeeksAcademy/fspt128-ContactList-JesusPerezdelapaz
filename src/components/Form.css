@@ -1,0 +1,44 @@
+.form-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 16px 18px;
+  margin: 0 auto;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.form-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+}
+
+
+.form-card .form-control {
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  padding: 8px 10px;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.form-card .form-control:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 0.2rem rgba(37, 99, 235, 0.25);
+}
+
+.form-card .form-label {
+  font-weight: 500;
+  color: #374151;
+}
+
+.form-card .btn {
+  margin-top: 8px;
+  border-radius: 8px;
+}
+
+.form-save-btn {
+  display: block;      
+  width: 50%;          
+  margin: 12px auto 0; 
+  border-radius: 8px;
+}
