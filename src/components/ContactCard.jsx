@@ -21,7 +21,7 @@ return (
 
   <div className="card-content">
 
-    {/* Avatar */}
+    
     <div className="avatar">
       <img
         src="https://i.pinimg.com/736x/e0/48/a7/e048a77430473c34e9adce766db14902.jpg" 
@@ -56,13 +56,12 @@ return (
   </Link>
 </div>
 
-    
     <div
       className="modal fade"
       id={`modal-${contact.id}`}
       tabIndex="-1"
       aria-labelledby={`modalLabel-${contact.id}`}
-      aria-hidden="true"
+      // aria-hidden="true"
     >
       <div className="modal-dialog modal-dialog-centered">
         <div className="modal-content">

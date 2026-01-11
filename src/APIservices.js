@@ -46,8 +46,7 @@ export const deleteContact = async (contact, dispatch) => {
     await fetch(`https://playground.4geeks.com/contact/agendas/yisus/contacts/${contact.id}`, {
         method: "DELETE"
     })
-
-   
+    
     getContacts(dispatch)
     
 }
